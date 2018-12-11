@@ -1,0 +1,27 @@
+====================db log====================
+[seq]
+0.38420000 1496194308
+--------------------
+[full_sql]
+connect db[mysql] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.40220000 1496194309
+--------------------
+[full_sql]
+select db[mysql] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.41020000 1496194309
+--------------------
+[full_sql]
+close db[mysql:co_page] on [root@localhost:3306]
+--------------------
+[result]
+success

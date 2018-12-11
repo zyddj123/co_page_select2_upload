@@ -1,0 +1,3420 @@
+====================db log====================
+[seq]
+0.52255300 1508118611
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.55655300 1508118612
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.56055300 1508118612
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.87455300 1508118612
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.88155300 1508118613
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.89955300 1508118613
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.93855300 1508118613
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.94255300 1508118613
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.94555300 1508118613
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.70555300 1508118619
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.71855300 1508118620
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72255300 1508118620
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.00655300 1508118621
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.03155300 1508118622
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.03655300 1508118622
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.04155300 1508118622
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.04655300 1508118622
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.05155300 1508118622
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.45555300 1508118643
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.46455300 1508118644
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.46955300 1508118644
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72955300 1508118644
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.74455300 1508118645
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.75155300 1508118645
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.75655300 1508118645
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.76055300 1508118645
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.76455300 1508118645
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.17055300 1508118684
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.17855300 1508118685
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.18255300 1508118685
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.41855300 1508118685
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.42955300 1508118686
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.43455300 1508118686
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.43855300 1508118686
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.44255300 1508118686
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.44655300 1508118686
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.19955300 1508118700
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.20355300 1508118701
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.20855300 1508118701
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.44855300 1508118701
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.46755300 1508118702
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.47255300 1508118702
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.47955300 1508118702
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.48355300 1508118702
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.48755300 1508118702
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.54955300 1508118711
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.55755300 1508118712
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.56055300 1508118712
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.77355300 1508118712
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.79655300 1508118713
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.80255300 1508118713
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.80655300 1508118713
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.80955300 1508118713
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.81355300 1508118713
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.80655300 1508118762
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.82855300 1508118763
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.83255300 1508118763
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.55755300 1508118779
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.57255300 1508118780
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.57655300 1508118780
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.80855300 1508118780
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.83055300 1508118781
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.83555300 1508118781
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.83955300 1508118781
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.84355300 1508118781
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.84655300 1508118781
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.90655300 1508118828
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.90655300 1508118829
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.91055300 1508118829
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.14055300 1508118830
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.14055300 1508118831
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.14655300 1508118831
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.15055300 1508118831
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.15455300 1508118831
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.15855300 1508118831
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72755300 1508118968
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.75455300 1508118969
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.76055300 1508118969
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.00355300 1508118970
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.03055300 1508118971
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.03655300 1508118971
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.04055300 1508118971
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.04455300 1508118971
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.04755300 1508118971
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.12655300 1508119006
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.13355300 1508119007
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.13755300 1508119007
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.20555300 1508119022
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.21855300 1508119023
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.22255300 1508119023
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.44555300 1508119023
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.45155300 1508119024
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.45555300 1508119024
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.45955300 1508119024
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.46355300 1508119024
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.46955300 1508119024
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.11655300 1508119062
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.13755300 1508119063
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.14155300 1508119063
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.37455300 1508119063
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.39455300 1508119064
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.39955300 1508119064
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.40455300 1508119064
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.40955300 1508119064
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.41255300 1508119064
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.75055300 1508119087
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.76755300 1508119088
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.77355300 1508119088
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.01755300 1508119089
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04155300 1508119090
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04755300 1508119090
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.05055300 1508119090
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.05455300 1508119090
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.05855300 1508119090
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.38755300 1508119098
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.41155300 1508119099
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.41655300 1508119099
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.66155300 1508119099
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.66955300 1508119100
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.67555300 1508119100
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.67955300 1508119100
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.68355300 1508119100
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.68755300 1508119100
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.63655300 1508119172
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.64555300 1508119173
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.65055300 1508119173
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.84455300 1508119173
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.87555300 1508119174
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.88055300 1508119174
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.88355300 1508119174
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.88755300 1508119174
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.89155300 1508119174
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.93255300 1508119222
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.94555300 1508119223
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.94955300 1508119223
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.40755300 1508119224
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.43455300 1508119225
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.43955300 1508119225
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.44355300 1508119225
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.44955300 1508119225
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.45355300 1508119225
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.63655300 1508119327
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.64855300 1508119328
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.65255300 1508119328
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.87255300 1508119328
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.89155300 1508119329
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.89655300 1508119329
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.90155300 1508119329
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.90555300 1508119329
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.90955300 1508119329
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.35455300 1508119433
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.35955300 1508119434
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.36455300 1508119434
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.59455300 1508119434
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.61355300 1508119435
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.61855300 1508119435
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.62255300 1508119435
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.62555300 1508119435
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.62955300 1508119435
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.05155300 1508119477
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.05755300 1508119478
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.06155300 1508119478
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.27555300 1508119478
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.28855300 1508119479
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.29255300 1508119479
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.29655300 1508119479
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.30055300 1508119479
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.30355300 1508119479
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success

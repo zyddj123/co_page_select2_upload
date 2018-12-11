@@ -1,0 +1,1632 @@
+====================db log====================
+[seq]
+0.88161900 1513217080
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.93161900 1513217081
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.99661900 1513217081
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.43161900 1513217082
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.46461900 1513217083
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.50021900 1513217083
+--------------------
+[unmixed_query]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT `id`,`name` FROM `user`  order by `id` asc LIMIT 0, 10
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+)
+
+====================db log====================
+[seq]
+0.54701900 1513217083
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.54701900 1513217083
+--------------------
+[unmixed_query]
+SELECT count(id) AS sum FROM user 
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+SELECT count(id) AS sum FROM user 
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [sum] => 26
+        )
+
+)
+
+====================db log====================
+[seq]
+0.54701900 1513217083
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.40901900 1513217112
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.43761900 1513217113
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.44061900 1513217113
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.42261900 1513217121
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.45881900 1513217122
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.46381900 1513217122
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.53681900 1513217122
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.55681900 1513217123
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.56081900 1513217123
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit ?,?
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => 0
+    [1] => 3
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit 0,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 26
+            [name] => mm
+        )
+
+    [1] => Array
+        (
+            [id] => 25
+            [name] => nn
+        )
+
+    [2] => Array
+        (
+            [id] => 24
+            [name] => bb
+        )
+
+)
+
+====================db log====================
+[seq]
+0.56481900 1513217123
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [name] => aa
+        )
+
+    [11] => Array
+        (
+            [id] => 12
+            [name] => ss
+        )
+
+    [12] => Array
+        (
+            [id] => 13
+            [name] => dd
+        )
+
+    [13] => Array
+        (
+            [id] => 14
+            [name] => ff
+        )
+
+    [14] => Array
+        (
+            [id] => 15
+            [name] => gg
+        )
+
+    [15] => Array
+        (
+            [id] => 16
+            [name] => hh
+        )
+
+    [16] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+    [17] => Array
+        (
+            [id] => 18
+            [name] => kk
+        )
+
+    [18] => Array
+        (
+            [id] => 19
+            [name] => ll
+        )
+
+    [19] => Array
+        (
+            [id] => 20
+            [name] => zz
+        )
+
+    [20] => Array
+        (
+            [id] => 21
+            [name] => xx
+        )
+
+    [21] => Array
+        (
+            [id] => 22
+            [name] => vv
+        )
+
+    [22] => Array
+        (
+            [id] => 23
+            [name] => cc
+        )
+
+    [23] => Array
+        (
+            [id] => 24
+            [name] => bb
+        )
+
+    [24] => Array
+        (
+            [id] => 25
+            [name] => nn
+        )
+
+    [25] => Array
+        (
+            [id] => 26
+            [name] => mm
+        )
+
+)
+
+====================db log====================
+[seq]
+0.56781900 1513217123
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.60781900 1513217123
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.61681900 1513217124
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.62081900 1513217124
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit ?,?
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => 0
+    [1] => 3
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit 0,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 26
+            [name] => mm
+        )
+
+    [1] => Array
+        (
+            [id] => 25
+            [name] => nn
+        )
+
+    [2] => Array
+        (
+            [id] => 24
+            [name] => bb
+        )
+
+)
+
+====================db log====================
+[seq]
+0.62581900 1513217124
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [name] => aa
+        )
+
+    [11] => Array
+        (
+            [id] => 12
+            [name] => ss
+        )
+
+    [12] => Array
+        (
+            [id] => 13
+            [name] => dd
+        )
+
+    [13] => Array
+        (
+            [id] => 14
+            [name] => ff
+        )
+
+    [14] => Array
+        (
+            [id] => 15
+            [name] => gg
+        )
+
+    [15] => Array
+        (
+            [id] => 16
+            [name] => hh
+        )
+
+    [16] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+    [17] => Array
+        (
+            [id] => 18
+            [name] => kk
+        )
+
+    [18] => Array
+        (
+            [id] => 19
+            [name] => ll
+        )
+
+    [19] => Array
+        (
+            [id] => 20
+            [name] => zz
+        )
+
+    [20] => Array
+        (
+            [id] => 21
+            [name] => xx
+        )
+
+    [21] => Array
+        (
+            [id] => 22
+            [name] => vv
+        )
+
+    [22] => Array
+        (
+            [id] => 23
+            [name] => cc
+        )
+
+    [23] => Array
+        (
+            [id] => 24
+            [name] => bb
+        )
+
+    [24] => Array
+        (
+            [id] => 25
+            [name] => nn
+        )
+
+    [25] => Array
+        (
+            [id] => 26
+            [name] => mm
+        )
+
+)
+
+====================db log====================
+[seq]
+0.62981900 1513217124
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.64341900 1513217125
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.66841900 1513217126
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.67241900 1513217126
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit ?,?
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => 3
+    [1] => 3
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit 3,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 23
+            [name] => cc
+        )
+
+    [1] => Array
+        (
+            [id] => 22
+            [name] => vv
+        )
+
+    [2] => Array
+        (
+            [id] => 21
+            [name] => xx
+        )
+
+)
+
+====================db log====================
+[seq]
+0.67641900 1513217126
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [name] => aa
+        )
+
+    [11] => Array
+        (
+            [id] => 12
+            [name] => ss
+        )
+
+    [12] => Array
+        (
+            [id] => 13
+            [name] => dd
+        )
+
+    [13] => Array
+        (
+            [id] => 14
+            [name] => ff
+        )
+
+    [14] => Array
+        (
+            [id] => 15
+            [name] => gg
+        )
+
+    [15] => Array
+        (
+            [id] => 16
+            [name] => hh
+        )
+
+    [16] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+    [17] => Array
+        (
+            [id] => 18
+            [name] => kk
+        )
+
+    [18] => Array
+        (
+            [id] => 19
+            [name] => ll
+        )
+
+    [19] => Array
+        (
+            [id] => 20
+            [name] => zz
+        )
+
+    [20] => Array
+        (
+            [id] => 21
+            [name] => xx
+        )
+
+    [21] => Array
+        (
+            [id] => 22
+            [name] => vv
+        )
+
+    [22] => Array
+        (
+            [id] => 23
+            [name] => cc
+        )
+
+    [23] => Array
+        (
+            [id] => 24
+            [name] => bb
+        )
+
+    [24] => Array
+        (
+            [id] => 25
+            [name] => nn
+        )
+
+    [25] => Array
+        (
+            [id] => 26
+            [name] => mm
+        )
+
+)
+
+====================db log====================
+[seq]
+0.68041900 1513217126
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.95961900 1513217126
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.98921900 1513217127
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.99321900 1513217127
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit ?,?
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => 6
+    [1] => 3
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit 6,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 20
+            [name] => zz
+        )
+
+    [1] => Array
+        (
+            [id] => 19
+            [name] => ll
+        )
+
+    [2] => Array
+        (
+            [id] => 18
+            [name] => kk
+        )
+
+)
+
+====================db log====================
+[seq]
+0.99721900 1513217127
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [name] => aa
+        )
+
+    [11] => Array
+        (
+            [id] => 12
+            [name] => ss
+        )
+
+    [12] => Array
+        (
+            [id] => 13
+            [name] => dd
+        )
+
+    [13] => Array
+        (
+            [id] => 14
+            [name] => ff
+        )
+
+    [14] => Array
+        (
+            [id] => 15
+            [name] => gg
+        )
+
+    [15] => Array
+        (
+            [id] => 16
+            [name] => hh
+        )
+
+    [16] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+    [17] => Array
+        (
+            [id] => 18
+            [name] => kk
+        )
+
+    [18] => Array
+        (
+            [id] => 19
+            [name] => ll
+        )
+
+    [19] => Array
+        (
+            [id] => 20
+            [name] => zz
+        )
+
+    [20] => Array
+        (
+            [id] => 21
+            [name] => xx
+        )
+
+    [21] => Array
+        (
+            [id] => 22
+            [name] => vv
+        )
+
+    [22] => Array
+        (
+            [id] => 23
+            [name] => cc
+        )
+
+    [23] => Array
+        (
+            [id] => 24
+            [name] => bb
+        )
+
+    [24] => Array
+        (
+            [id] => 25
+            [name] => nn
+        )
+
+    [25] => Array
+        (
+            [id] => 26
+            [name] => mm
+        )
+
+)
+
+====================db log====================
+[seq]
+0.00221900 1513217128
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.71661900 1513217129
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.74621900 1513217130
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.75021900 1513217130
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit ?,?
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => 9
+    [1] => 3
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%') order by id DESC limit 9,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+    [1] => Array
+        (
+            [id] => 16
+            [name] => hh
+        )
+
+    [2] => Array
+        (
+            [id] => 15
+            [name] => gg
+        )
+
+)
+
+====================db log====================
+[seq]
+0.75521900 1513217130
+--------------------
+[unmixed_query]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%%' OR id like '%%')
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => qq
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => ww
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ee
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => rr
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => tt
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => yy
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => uu
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => ii
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => oo
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => pp
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [name] => aa
+        )
+
+    [11] => Array
+        (
+            [id] => 12
+            [name] => ss
+        )
+
+    [12] => Array
+        (
+            [id] => 13
+            [name] => dd
+        )
+
+    [13] => Array
+        (
+            [id] => 14
+            [name] => ff
+        )
+
+    [14] => Array
+        (
+            [id] => 15
+            [name] => gg
+        )
+
+    [15] => Array
+        (
+            [id] => 16
+            [name] => hh
+        )
+
+    [16] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+    [17] => Array
+        (
+            [id] => 18
+            [name] => kk
+        )
+
+    [18] => Array
+        (
+            [id] => 19
+            [name] => ll
+        )
+
+    [19] => Array
+        (
+            [id] => 20
+            [name] => zz
+        )
+
+    [20] => Array
+        (
+            [id] => 21
+            [name] => xx
+        )
+
+    [21] => Array
+        (
+            [id] => 22
+            [name] => vv
+        )
+
+    [22] => Array
+        (
+            [id] => 23
+            [name] => cc
+        )
+
+    [23] => Array
+        (
+            [id] => 24
+            [name] => bb
+        )
+
+    [24] => Array
+        (
+            [id] => 25
+            [name] => nn
+        )
+
+    [25] => Array
+        (
+            [id] => 26
+            [name] => mm
+        )
+
+)
+
+====================db log====================
+[seq]
+0.75821900 1513217130
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.75822600 1513218256
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.77522600 1513218257
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.77922600 1513218257
+--------------------
+[unmixed_query]
+select * from user where (name like '%jj%' OR id like '%jj%') order by id DESC limit ?,?
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => 0
+    [1] => 3
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%jj%' OR id like '%jj%') order by id DESC limit 0,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+)
+
+====================db log====================
+[seq]
+0.78322600 1513218257
+--------------------
+[unmixed_query]
+select * from user where (name like '%jj%' OR id like '%jj%')
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%jj%' OR id like '%jj%')
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+)
+
+====================db log====================
+[seq]
+0.78722600 1513218257
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.81022600 1513218257
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.82722600 1513218258
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.83122600 1513218258
+--------------------
+[unmixed_query]
+select * from user where (name like '%jj%' OR id like '%jj%') order by id DESC limit ?,?
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => 0
+    [1] => 3
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%jj%' OR id like '%jj%') order by id DESC limit 0,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+)
+
+====================db log====================
+[seq]
+0.83622600 1513218258
+--------------------
+[unmixed_query]
+select * from user where (name like '%jj%' OR id like '%jj%')
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user where (name like '%jj%' OR id like '%jj%')
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 17
+            [name] => jj
+        )
+
+)
+
+====================db log====================
+[seq]
+0.84122600 1513218258
+--------------------
+[full_sql]
+close db[mysqli:co_page_select2] on [root@localhost:3306]
+--------------------
+[result]
+success

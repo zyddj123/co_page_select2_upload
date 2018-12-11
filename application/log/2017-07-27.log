@@ -1,0 +1,7 @@
+[2017-07-27 11:07:28] catch unhandled exception: Unknown database 'co_page_select2'
+[2017-07-27 11:07:48] catch unhandled exception: Unknown database 'co_page_select2'
+[2017-07-27 11:07:55] catch unhandled exception: Unknown database 'co_page_select2'
+[2017-07-27 15:54:52] catch unhandled exception: Call to undefined method CO_DB_mysqli_api::Qeury()
+[2017-07-27 15:54:57] catch unhandled exception: Call to undefined method CO_DB_mysqli_api::Qeury()
+[2017-07-27 15:54:58] catch unhandled exception: Call to undefined method CO_DB_mysqli_api::Qeury()
+[2017-07-27 15:54:59] catch unhandled exception: Call to undefined method CO_DB_mysqli_api::Qeury()

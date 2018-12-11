@@ -1,0 +1,514 @@
+====================db log====================
+[seq]
+0.74120000 1495522628
+--------------------
+[full_sql]
+connect db[mysql] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.76720000 1495522629
+--------------------
+[full_sql]
+select db[mysql] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.77420000 1495522629
+--------------------
+[full_sql]
+close db[mysql:co_page] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.86520000 1495522629
+--------------------
+[full_sql]
+connect db[mysql] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.88120000 1495522630
+--------------------
+[full_sql]
+select db[mysql] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.88420000 1495522630
+--------------------
+[unmixed_query]
+select * from user order by id DESC limit 0,3
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user order by id DESC limit 0,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [name] => 名字3
+        )
+
+    [1] => Array
+        (
+            [id] => 28
+            [name] => 名字2
+        )
+
+    [2] => Array
+        (
+            [id] => 27
+            [name] => 名字1
+        )
+
+)
+
+====================db log====================
+[seq]
+0.91920000 1495522630
+--------------------
+[unmixed_query]
+select count('id') AS count from user
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select count('id') AS count from user
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [count] => 29
+        )
+
+)
+
+====================db log====================
+[seq]
+0.92320000 1495522630
+--------------------
+[full_sql]
+close db[mysql:co_page] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.96420000 1495522630
+--------------------
+[full_sql]
+connect db[mysql] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.99120000 1495522631
+--------------------
+[full_sql]
+select db[mysql] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.99420000 1495522631
+--------------------
+[unmixed_query]
+select * from user order by id DESC limit 0,3
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user order by id DESC limit 0,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [name] => 名字3
+        )
+
+    [1] => Array
+        (
+            [id] => 28
+            [name] => 名字2
+        )
+
+    [2] => Array
+        (
+            [id] => 27
+            [name] => 名字1
+        )
+
+)
+
+====================db log====================
+[seq]
+0.02320000 1495522632
+--------------------
+[unmixed_query]
+select count('id') AS count from user
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select count('id') AS count from user
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [count] => 29
+        )
+
+)
+
+====================db log====================
+[seq]
+0.02620000 1495522632
+--------------------
+[full_sql]
+close db[mysql:co_page] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.09820000 1495522634
+--------------------
+[full_sql]
+connect db[mysql] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.12120000 1495522635
+--------------------
+[full_sql]
+select db[mysql] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.12520000 1495522635
+--------------------
+[unmixed_query]
+select * from user order by id DESC limit 6,3
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user order by id DESC limit 6,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 23
+            [name] => cc
+        )
+
+    [1] => Array
+        (
+            [id] => 22
+            [name] => vv
+        )
+
+    [2] => Array
+        (
+            [id] => 21
+            [name] => xx
+        )
+
+)
+
+====================db log====================
+[seq]
+0.12820000 1495522635
+--------------------
+[unmixed_query]
+select count('id') AS count from user
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select count('id') AS count from user
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [count] => 29
+        )
+
+)
+
+====================db log====================
+[seq]
+0.13120000 1495522635
+--------------------
+[full_sql]
+close db[mysql:co_page] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04320000 1495524895
+--------------------
+[full_sql]
+connect db[mysql] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04020000 1495524896
+--------------------
+[full_sql]
+select db[mysql] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04520000 1495524896
+--------------------
+[full_sql]
+close db[mysql:co_page] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.21420000 1495524896
+--------------------
+[full_sql]
+connect db[mysql] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.22420000 1495524897
+--------------------
+[full_sql]
+select db[mysql] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.22820000 1495524897
+--------------------
+[unmixed_query]
+select * from user order by id DESC limit 0,3
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user order by id DESC limit 0,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [name] => 名字3
+        )
+
+    [1] => Array
+        (
+            [id] => 28
+            [name] => 名字2
+        )
+
+    [2] => Array
+        (
+            [id] => 27
+            [name] => 名字1
+        )
+
+)
+
+====================db log====================
+[seq]
+0.23220000 1495524897
+--------------------
+[unmixed_query]
+select count('id') AS count from user
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select count('id') AS count from user
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [count] => 29
+        )
+
+)
+
+====================db log====================
+[seq]
+0.23620000 1495524897
+--------------------
+[full_sql]
+close db[mysql:co_page] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.26320000 1495524897
+--------------------
+[full_sql]
+connect db[mysql] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.27920000 1495524898
+--------------------
+[full_sql]
+select db[mysql] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.28320000 1495524898
+--------------------
+[unmixed_query]
+select * from user order by id DESC limit 0,3
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from user order by id DESC limit 0,3
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [name] => 名字3
+        )
+
+    [1] => Array
+        (
+            [id] => 28
+            [name] => 名字2
+        )
+
+    [2] => Array
+        (
+            [id] => 27
+            [name] => 名字1
+        )
+
+)
+
+====================db log====================
+[seq]
+0.28620000 1495524898
+--------------------
+[unmixed_query]
+select count('id') AS count from user
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select count('id') AS count from user
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [count] => 29
+        )
+
+)
+
+====================db log====================
+[seq]
+0.29020000 1495524898
+--------------------
+[full_sql]
+close db[mysql:co_page] on [root@localhost:3306]
+--------------------
+[result]
+success
