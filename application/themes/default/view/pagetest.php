@@ -21,7 +21,7 @@
 			</thead>
 			
 			<tbody id="user">
-				<tr><td><img id="loading" src="<?php echo APP_HTTP_ROOT.$this->GetThemes();?>/images/loading.gif" width="25px" height="25px" alt=""></td></tr>
+				
 			</tbody>
 		</table>
 		<div id="Pagination" class="pagination"></div>
@@ -33,10 +33,11 @@
 			if(typeof status== 'undefined') status=0;//获取值
 			if(typeof p== 'undefined') p=1; //获取当前页数
 			var name = $('#search_user_data').val();
+			$('#user').empty().append('<tr><td><img id="loading" src="<?php echo APP_HTTP_ROOT.$this->GetThemes();?>/images/loading.gif" width="25px" height="25px" alt=""></td></tr>');
 			$.post('<?php echo APP_URL_ROOT?>/Test/test_ajax_data',{"status":status,"p":p,"name":name},function(e){
 				$('#user').empty();//清空所有数据
 				var e = JSON.parse(e);
-				if(e.data){
+				if(e.entries!=0){
 					var str='';						
 					$.each(e.data,function(i,d){
 						str +='<tr id="type'+d.id+'">';
@@ -53,7 +54,7 @@
 						initPagination(e.entries);//总页数
 					}
 				}else{
-					// $("#user").text('暂无数据!');
+					$("#user").text('暂无数据!');
 					if(status!=1){
 						initPagination('0');
 					}
@@ -78,14 +79,11 @@
 			}
 			// 创建分页
 			$("#Pagination").pagination(num_entries, {
-				num_edge_entries: 1, //边缘页数
-				num_display_entries: 4, //主体页数
 				callback: pageselectCallback,
-				items_per_page:1, //每页显示1项
-				prev_text: "上一页",
-				next_text: "下一页",
 				prev_show_always:_pag_text,
-				next_show_always:_pag_text
+				next_show_always:_pag_text,
+				first_show_always:_pag_text,
+				last_show_always:_pag_text,
 			});
 		};	
 		$(function(){ //执行这个方法
